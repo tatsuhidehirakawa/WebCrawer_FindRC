@@ -1,7 +1,40 @@
+<!--+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+　　　　　パイザクラウド（https://paiza.cloud/）を利用した
+　　　　　　　Pythonスクレイピングプログラムの環境構築
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-->
+
+１　リモートリポジトリでの作業
+（１）環境構築（リモートリポジトリでの作業）
+    ア PaizaCloud( https://paiza.cloud/ )でサーバを作成しターミナルを開く。
+    イ 初期設定
+       git config --global user.email "*******電子メールアドレス*******" && git config --global user.name "*****ユーザ名*****" && git --version && git config --list
+       git config --global user.email "tatsuhide.hirakawa@hirasyo.com" && git config --global user.name "Tatsuhide Hirakawa" && git --version && git config --list
+    ウ Gitバージョン確認＆ダウンロード＆初期化
+       git clone /******************リポジトリURL*******************/
+       git clone https://github.com/tatsuhidehirakawa/WebCrawer_FindRC.git
+ 
+（２）ファイル編集
+      ファイルを編集し保存する。
+
+（３）ステージング
+     cd WebCrawer_FindRC && git add CrawingByMsuka_1572961301.6513114.py && git status && git commit -m "Code updated! <20201208-011>"
+
+（４）リモートリポジトリへプッシュ
+      git push origin main
+      tatsuhide.hirakawa@hirasyo.com
+      ********
+  
+-------------------------------------------------------------------------------------------------------------------------------
+ここまでＯＫ！
+-------------------------------------------------------------------------------------------------------------------------------
+
+
 Gitコマンド集
 
 ＜ローカルリポジトリを作成して特定のファイルをロードする＞
-git clone https://github.com/tatsuhidehirakawa/LearnVuejs.git && git init && git add LearnVuejs/TestofVuejs_v20210801.html && git status
+git clone git clone https://github.com/tatsuhidehirakawa/WebCrawer_FindRC.git
 
 ＜ユーザ認証する＞
 cd LearnVuejs
